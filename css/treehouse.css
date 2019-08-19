@@ -1,0 +1,591 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: Montserrat, Arial, sans-serif;
+	color: #40484a;
+	background-color: #f9fafa;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+html, body {
+	overflow-x: hidden;
+}
+
+/*************************************** Styling for navbar beings here **************************************/
+
+.top-navbar {
+	width: 100%;
+	height: 70px;
+	background-color: #fff;
+	position: fixed;
+	z-index: 100;
+}
+
+.top-navbar-logo {
+	width: 139px;
+	height: 32px;
+}
+
+.top-navbar-items {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	max-width: 1260px;
+	height: 70px;
+	margin: 0 auto;
+	list-style-type: none;
+}
+
+.top-navbar-item-logo {
+	margin-right: 10%;
+}
+
+.top-navbar-list-items {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.item1 {
+	margin-left: 38%;
+}
+
+.top-navbar-items li a{
+	text-decoration: none;
+	color: #7b8b8e;
+	font-size: 14px;
+}
+
+.top-navbar-items li a:hover {
+	color: #6b7a7c;
+	transition: color 0.3s ease;
+}
+
+.top-navbar-items li a span {
+	color: #5fcf80;
+}
+
+.top-navbar-items li a span:hover {
+	color: #45c76b;
+	transition: color 0.3s ease;
+}
+/*************************************** Styling for navbar ends here **************************************/
+
+
+/*************************************** Styling for section 1 begins here **************************************/
+.section1-container {
+	background-image: linear-gradient(to bottom, rgba(48, 56, 83, 0)60%, #303853 80%, #303853 100%), url(https://static.teamtreehouse.com/assets/views/marketing/home/homepage-hero-6b54d9398fb6767e848cfcb92bce53b465c49d29a5c990e11483e42c797c121d.png);
+	background-size: 100%, 100%;
+	background-position: 0 -180px;
+	background-repeat: no-repeat;
+	background-attachment: fixed, fixed;
+	background-color: #303853;
+	height: 78vh;
+	color: #fff;
+	max-width: 100%;
+	margin: 0 auto;
+	padding-top: 70px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.section1-container-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding-top: 70px;
+}
+
+.section1-container-text {
+	padding-right: 35px;
+}
+
+.section1-container-text h1 {
+	font-weight: 500;
+	font-size: 180%;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+
+.section1-container-text p {
+	font-size: 26px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+
+.section1-container-form {
+	height: 450px;
+	width: 575px;
+	background-color: #fff;
+	border-radius: 6px;
+	color: #40484a;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.section1-container-form p {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-bottom: 30px;
+	background-color: #efefef;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 1px;
+	border-radius: 6px;
+}
+
+.section1-container-form p span {
+	font-weight: 500;
+}
+
+.section1-form-items {
+		border: none;
+	text-align: left;
+}
+
+.section1-form-items label, input { 
+	display: block;
+}
+
+.section1-form-items label {
+	text-align: left;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+.section1-form-items input {
+	height: 45px;
+	width: 260px;
+	margin: 0 auto 20px auto;
+	background-color: #f9fafa;
+	border-style: none;
+	outline-style: none;
+	outline-color: transparent;
+	border: 2px solid #d4d9dd;
+	border-radius: 4px;
+	color: #40484a;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.col1 {
+	display: grid;
+	text-align: left;
+	width: 50%;
+}
+
+.col2 {
+	display: grid;
+	text-align: left;
+	width: 50%;
+}
+
+.pair1, .pair2, .pair3, .pair4 {
+	float: left;
+}
+
+.checkbox-container {
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+	margin-right: 25px;
+	margin-left: 25px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #efefef;
+}
+
+.checkbox-container-input {
+	height: 17px;
+	width: 17px;
+    outline-style: none;
+	border-style: none;
+	background-color: #fff;
+	border: 2px solid #d4d9dd;
+	border-radius: 5px;
+}
+
+.checkbox-container-input:checked {
+	color: #fff;
+	background-color: #3498db;
+	border: 2px solid #3498db;
+}
+
+.checkbox-container-text {
+	margin-left: 10px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.section1-form-btn {
+	width: 520px;
+	height: 50px;
+	padding-top: 15px;
+	margin: 20px auto 0 auto;
+	background-color: #387bab;
+	border-color: #387bab;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.section1-form-btn span {
+	padding-bottom: 5px;
+	padding-left: 10px;
+	font-size: 12px;
+}
+
+.section1-form-btn:hover {
+	background-color: #306991;
+	transition: background-color 0.3s ease;
+}
+
+.section1-form-btn a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.section1-stats-container {
+	max-width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 60px;
+	color: #fff;
+}
+
+.section1-stats-container div {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.section1-stats-container p{
+	font-size: 17px;
+}
+
+.section1-stats-container span {
+	font-size: 36px;
+}
+/*************************************** Styling for section 1 ends here **************************************/
+
+/*************************************** Styling for section 2 begins here **************************************/
+
+.section2 {
+	background-image: url(https://static.teamtreehouse.com/assets/views/marketing/home/homepage-texture-34e7c496750ff276b021f3b2b83238c3177c2c30564885d11d181c4e795a844b.png);
+	background-position: center;
+	background-size: cover;
+	background-color: #f9fafa;
+	height: 60vh;
+	display: flex;
+}
+
+.section2-images {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-left: 13%;
+}
+
+.section2-video-image {
+	min-width: 525px;
+	max-width: 750px;
+}
+
+.section2-video-image img {
+	width: 100%;
+}
+
+.coder {
+	width: 300px;
+	position: relative;
+	margin-top: 19%;
+	margin-left: -3%;
+}
+
+.textbox {
+	min-width: 475px;
+	max-width: 550px;
+	display: block;
+}
+
+.textbox h2 {
+	width: 550px;
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+
+.textbox p {
+	font-size: 16px;
+	color: #7b8b8e;
+	line-height: 1.7em;
+}
+
+.section2-content-flexible {
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+	padding-top: 75px;
+	right: 13%;
+}
+
+.section2-bottom-border {
+	content:"";
+	height: 1px;
+	width: 75%;
+	margin: 0 auto;
+	background-color: #d4d9dd;
+}
+
+/*************************************** Styling for section 2 ends here **************************************/
+
+/*************************************** Styling for section 3 begins here **************************************/
+
+.section3-content {
+	height: 80vh;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 80px;
+	background-color: #f9fafa;
+}
+
+.section3-content-supportive {
+	width: 550px;
+	margin-right: 60px;
+}
+
+.section3-supportive-img {
+	padding-top: 25px;
+	width: 55%;
+	margin: 0 auto;
+}
+
+.section3-supportive-img img {
+	width: 100%;
+}
+
+.section3-content-valuable {
+	margin-left: 60px;
+}
+
+.section3-valuable-img svg {
+	width: 85%;
+	padding-top: 25px;
+}
+
+.section3-slant{
+	height: 130px;
+	margin-top: -95px;
+	background-color: #fff;
+	z-index: 2;
+	-webkit-transform: skewY(-5deg);
+}
+
+/*************************************** Styling for section 3 ends here **************************************/
+
+/*************************************** Styling for section 4 begins here **************************************/
+.section4 {
+	margin-top: -50px;
+	padding-top: 60px;
+	padding-bottom: 300px;
+	height: 15vh;
+	background-color: #fff;
+}
+
+.section4-title {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.section4-title h2 {
+	font-weight: 400;
+	font-size: 36px;
+	letter-spacing: 1px;
+	display: block;
+	z-index: 3;
+}
+
+.section4-sponsor-images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 70px;
+	padding-right: 225px;
+	padding-left: 225px;
+}
+
+.sponsor1-google {
+	width: 270px;
+}
+
+.sponsor1-google img {
+	width: 100%;
+}
+
+/*************************************** Styling for section 4 ends here **************************************/
+
+/*************************************** Styling for section 5 begins here **************************************/
+
+.section5 {
+	height: 65vh;
+	padding-top: 80px;
+	background-color: #edeff0;
+}
+
+.section5-testimonial {
+	max-width: 1200px;
+	height: 450px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding-top: 65px;
+	padding-bottom: 65px;
+	margin: 0 auto;
+	background-color: #fff;	
+}
+
+.section5-testimonial-chris {
+	width: 500px;
+	height: 450px;
+	background-image: url(../images/chris.png);
+	background-size: cover; 
+}
+
+.testimonial-chris-text {
+	width: 500px;
+	padding-top: 380px;
+	padding-left: 30px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.testimonial-author-chris {
+	font-size: 13px;
+	color: #7b8b8e;
+}
+
+.section5-testimonial-checklist {
+	width: 450px;
+	padding-left: 50px;
+}
+
+.section5-testimonial-checklist h2, ul li{
+	padding-bottom: 30px;
+	list-style-type: none;
+}
+
+.section5-testimonial-checklist h2 {
+	font-size: 26px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+
+.section5-testimonial-checklist ul li {
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #576366;
+}
+
+.fa-check {
+	font-size: 26px;
+	color: #674993;
+}
+
+.testimonial-button {
+	width: 350px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #674993;
+	border-color: #674993;
+	border-radius: 4px;
+}
+
+.testimonial-button a {
+	text-decoration: none;
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+.testimonial-button a:visited {
+	color: #fff;
+}
+
+.testimonial-logo-img {
+	padding-left: 50px;
+}
+
+/*************************************** Styling for section 5 ends here **************************************/
+
+/*************************************** Styling for the footer begins here **************************************/
+
+.homepage-footer {
+	height: 17vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 60px 225px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #7b8b8e;
+	font-size: 16px;
+}
+
+.homepage-footer-col {
+	max-width: 25%;
+}
+
+.footer-logo {
+	width: 150px;
+}
+
+.footer-logo-img {
+	width: 100%;
+}
+
+.footer-copyright {
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.footer-list ul li {
+	padding-bottom: 0px;
+	line-height: 1.7;
+}
+
+/*.footer-list1 {
+	margin-left: -100px;
+}
+
+.footer-list2 {
+	margin-left: -130px;
+}*/
+
+.social-media-icons {
+	display: flex;
+}
+
+.social-media-icons i {
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 24px;
+	color: #40484a;
+}
+
+.social-media-icons a {
+	text-decoration: none;
+}
+
+
